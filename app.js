@@ -73,6 +73,7 @@
     if (sec === 'wheel' && activeTicker) drawTicker(activeTicker);
   }
   document.querySelectorAll('#mainTabs button').forEach(b => b.addEventListener('click', () => show(b.dataset.sec)));
+  window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (PAGES[h]) show(h); });
   document.getElementById('openSignals').addEventListener('click', () => show('signals'));
 
   function classify(text){
