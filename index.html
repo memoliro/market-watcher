@@ -541,7 +541,7 @@ function loadTV(t){
   sc.async = true;
   sc.textContent = JSON.stringify({
     autosize: true, symbol: tvSym(t), interval: 'D',
-    theme: 'light', style: '1', locale: 'en', hide_side_toolbar: true,
+    theme: (document.documentElement.dataset.theme === 'light' ? 'light' : 'dark'), style: '1', locale: 'en', hide_side_toolbar: true,
     allow_symbol_change: true, studies: ['STD;Bollinger_Bands'],
     support_host: 'https://www.tradingview.com'
   });
@@ -552,6 +552,12 @@ function loadTV(t){
     }
   }, 9000);
 }
+
+window.marketWatcherRefreshChartTheme = function(theme){
+  // TradingView is an iframe; its theme must be applied by recreating the widget.
+  const active = WL[wlActive] || (typeof tickers !== 'undefined' && tickers[0]);
+  if (active) loadTV(active);
+};
 
 const tabsEl = document.getElementById('tabs');
 tickers.forEach((t,i)=>{
