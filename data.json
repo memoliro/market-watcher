@@ -1,11 +1,9 @@
 {
-  "generated_at": "2026-10-07 20:26 ET",
+  "generated_at": "2026-10-08 18:20 ET",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
       "dates": [
-        "2025-10-07",
-        "2025-10-08",
         "2025-10-09",
         "2025-10-10",
         "2025-10-13",
@@ -254,11 +252,11 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
       ],
       "close": [
-        669.12,
-        673.11,
         671.16,
         653.02,
         663.04,
@@ -507,11 +505,11 @@
         763.99,
         769.64,
         774.83,
-        779.09
+        779.09,
+        777.22,
+        773.93
       ],
       "bb_upper": [
-        673.13,
-        673.75,
         674.4,
         675.06,
         675.05,
@@ -760,11 +758,11 @@
         775.94,
         775.31,
         776.23,
-        778.53
+        778.53,
+        780.15,
+        780.71
       ],
       "bb_lower": [
-        653.05,
-        654.52,
         655.22,
         654.13,
         654.35,
@@ -1013,11 +1011,11 @@
         754.07,
         754.34,
         753.89,
-        752.91
+        752.91,
+        752.77,
+        753.82
       ],
       "sma200": [
-        602.06,
-        602.49,
         602.92,
         603.23,
         603.57,
@@ -1266,7 +1264,9 @@
         720.03,
         720.47,
         720.95,
-        721.49
+        721.49,
+        721.99,
+        722.46
       ],
       "entries": [
         {
@@ -1341,13 +1341,13 @@
         }
       ],
       "last": {
-        "close": 779.09,
-        "chg_pct": 0.55,
-        "lower": 752.91,
-        "mid": 765.72,
-        "sma200": 721.49,
+        "close": 773.93,
+        "chg_pct": -0.42,
+        "lower": 753.82,
+        "mid": 767.26,
+        "sma200": 722.46,
         "bullish": true,
-        "dist_to_lower_pct": 3.48,
+        "dist_to_lower_pct": 2.67,
         "last_signal": "2026-09-14",
         "n_signals_1y": 15
       }
@@ -1355,8 +1355,6 @@
     "QQQ": {
       "ticker": "QQQ",
       "dates": [
-        "2025-10-07",
-        "2025-10-08",
         "2025-10-09",
         "2025-10-10",
         "2025-10-13",
@@ -1605,11 +1603,11 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
       ],
       "close": [
-        604.51,
-        611.44,
         610.7,
         589.5,
         602.01,
@@ -1858,11 +1856,11 @@
         742.03,
         749.58,
         756.2,
-        759.66
+        759.66,
+        757.73,
+        747.58
       ],
       "bb_upper": [
-        611.17,
-        612.21,
         613.05,
         612.69,
         612.73,
@@ -2111,11 +2109,11 @@
         755.9,
         758.96,
         762.98,
-        767.15
+        767.15,
+        770.26,
+        770.69
       ],
       "bb_lower": [
-        581.67,
-        583.71,
         585.53,
         586.17,
         587.17,
@@ -2364,11 +2362,11 @@
         696.47,
         696.6,
         696.3,
-        696.26
+        696.26,
+        697.3,
+        700.76
       ],
       "sma200": [
-        528.37,
-        528.84,
         529.32,
         529.68,
         530.07,
@@ -2617,7 +2615,9 @@
         667.91,
         668.6,
         669.33,
-        670.12
+        670.12,
+        670.87,
+        671.52
       ],
       "entries": [
         {
@@ -2684,13 +2684,13 @@
         }
       ],
       "last": {
-        "close": 759.66,
-        "chg_pct": 0.46,
-        "lower": 696.26,
-        "mid": 731.71,
-        "sma200": 670.12,
+        "close": 747.58,
+        "chg_pct": -1.34,
+        "lower": 700.76,
+        "mid": 735.72,
+        "sma200": 671.52,
         "bullish": true,
-        "dist_to_lower_pct": 9.11,
+        "dist_to_lower_pct": 6.68,
         "last_signal": "2026-09-14",
         "n_signals_1y": 13
       }
@@ -2698,8 +2698,6 @@
     "IWM": {
       "ticker": "IWM",
       "dates": [
-        "2025-10-07",
-        "2025-10-08",
         "2025-10-09",
         "2025-10-10",
         "2025-10-13",
@@ -2948,11 +2946,11 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
       ],
       "close": [
-        244.16,
-        246.72,
         245.13,
         237.79,
         244.41,
@@ -3201,11 +3199,11 @@
         279.02,
         281.52,
         283.38,
-        281.34
+        281.34,
+        277.7,
+        277.57
       ],
       "bb_upper": [
-        247.46,
-        247.76,
         248.06,
         248.13,
         248.22,
@@ -3454,11 +3452,11 @@
         296.51,
         295.0,
         292.93,
-        290.85
+        290.85,
+        289.9,
+        289.45
       ],
       "bb_lower": [
-        236.26,
-        236.99,
         237.13,
         237.01,
         237.42,
@@ -3707,11 +3705,11 @@
         274.88,
         275.02,
         275.83,
-        276.58
+        276.58,
+        276.23,
+        275.67
       ],
       "sma200": [
-        216.99,
-        217.12,
         217.24,
         217.32,
         217.44,
@@ -3960,7 +3958,9 @@
         276.17,
         276.32,
         276.49,
-        276.66
+        276.66,
+        276.8,
+        276.94
       ],
       "entries": [
         {
@@ -4014,6 +4014,10 @@
         {
           "x": "2026-09-15",
           "y": 285.14
+        },
+        {
+          "x": "2026-10-08",
+          "y": 277.57
         }
       ],
       "blocked": [
@@ -4023,22 +4027,20 @@
         }
       ],
       "last": {
-        "close": 281.34,
-        "chg_pct": -0.72,
-        "lower": 276.58,
-        "mid": 283.71,
-        "sma200": 276.66,
+        "close": 277.57,
+        "chg_pct": -0.05,
+        "lower": 275.67,
+        "mid": 282.56,
+        "sma200": 276.94,
         "bullish": true,
-        "dist_to_lower_pct": 1.72,
-        "last_signal": "2026-09-15",
-        "n_signals_1y": 13
+        "dist_to_lower_pct": 0.69,
+        "last_signal": "2026-10-08",
+        "n_signals_1y": 14
       }
     },
     "DIA": {
       "ticker": "DIA",
       "dates": [
-        "2025-10-07",
-        "2025-10-08",
         "2025-10-09",
         "2025-10-10",
         "2025-10-13",
@@ -4287,11 +4289,11 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
       ],
       "close": [
-        465.97,
-        466.07,
         463.5,
         454.87,
         460.68,
@@ -4540,11 +4542,11 @@
         508.62,
         511.1,
         512.11,
-        514.56
+        514.56,
+        511.02,
+        511.65
       ],
       "bb_upper": [
-        468.16,
-        468.0,
         468.06,
         468.82,
         468.8,
@@ -4793,11 +4795,11 @@
         534.8,
         531.56,
         528.44,
-        526.58
+        526.58,
+        525.55,
+        524.98
       ],
       "bb_lower": [
-        456.7,
-        457.87,
         457.97,
         456.76,
         456.85,
@@ -5046,11 +5048,11 @@
         504.31,
         504.97,
         505.89,
-        506.4
+        506.4,
+        506.13,
+        505.8
       ],
       "sma200": [
-        433.52,
-        433.73,
         433.93,
         434.06,
         434.22,
@@ -5299,7 +5301,9 @@
         502.58,
         502.71,
         502.86,
-        503.04
+        503.04,
+        503.19,
+        503.34
       ],
       "entries": [
         {
@@ -5354,13 +5358,13 @@
         }
       ],
       "last": {
-        "close": 514.56,
-        "chg_pct": 0.48,
-        "lower": 506.4,
-        "mid": 516.49,
-        "sma200": 503.04,
+        "close": 511.65,
+        "chg_pct": 0.12,
+        "lower": 505.8,
+        "mid": 515.39,
+        "sma200": 503.34,
         "bullish": true,
-        "dist_to_lower_pct": 1.61,
+        "dist_to_lower_pct": 1.16,
         "last_signal": "2026-09-15",
         "n_signals_1y": 11
       }
@@ -5368,7 +5372,6 @@
   },
   "vix": {
     "dates": [
-      "2026-04-07",
       "2026-04-08",
       "2026-04-09",
       "2026-04-10",
@@ -5497,10 +5500,10 @@
       "2026-10-02",
       "2026-10-05",
       "2026-10-06",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-10-08"
     ],
     "values": [
-      25.78,
       21.04,
       19.49,
       19.23,
@@ -5629,13 +5632,13 @@
       15.31,
       15.52,
       15.01,
-      15.08
+      15.08,
+      15.41
     ]
   },
-  "vix_last": 15.08,
+  "vix_last": 15.41,
   "tnx": {
     "dates": [
-      "2026-04-02",
       "2026-04-06",
       "2026-04-07",
       "2026-04-08",
@@ -5764,10 +5767,10 @@
       "2026-10-02",
       "2026-10-05",
       "2026-10-06",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-10-08"
     ],
     "values": [
-      4.31,
       4.34,
       4.34,
       4.29,
@@ -5896,24 +5899,19 @@
       5.28,
       5.31,
       5.27,
-      5.28
+      5.28,
+      5.23
     ]
   },
-  "tnx_last": 5.28,
+  "tnx_last": 5.23,
   "putcall": {
-    "as_of": "2026-10-06",
-    "total": 0.82,
-    "equity": 0.57,
-    "index": 0.88
+    "as_of": "2026-10-07",
+    "total": 0.87,
+    "equity": 0.63,
+    "index": 0.93
   },
-  "putcall_reading": "equity put/call 0.57 \u2014 complacent tape, premiums thin",
+  "putcall_reading": "equity put/call 0.63 \u2014 complacent tape, premiums thin",
   "putcall_hist": [
-    {
-      "d": "2026-09-25",
-      "total": 0.75,
-      "equity": 0.52,
-      "index": 0.95
-    },
     {
       "d": "2026-09-28",
       "total": 0.88,
@@ -5955,6 +5953,12 @@
       "total": 0.82,
       "equity": 0.57,
       "index": 0.88
+    },
+    {
+      "d": "2026-10-07",
+      "total": 0.87,
+      "equity": 0.63,
+      "index": 0.93
     }
   ],
   "cot": {
@@ -6619,107 +6623,105 @@
       }
     ]
   },
-  "news": [
-    {
-      "pub": "Wed, 07 Oct 2026",
-      "title": "Rising yields are quietly crashing the stock market\u2019s earlier winners of 2026"
+  "stocktwits": {
+    "SPY": {
+      "bull": 8,
+      "bear": 2,
+      "total": 30,
+      "bull_pct": 26.7,
+      "bear_pct": 6.7
     },
-    {
-      "pub": "Wed, 07 Oct 2026",
-      "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters"
-    },
-    {
-      "pub": "Wed, 07 Oct 2026",
-      "title": "Options traders are betting on a dramatic drop in interest rates"
-    },
-    {
-      "pub": "Wed, 07 Oct 2026",
-      "title": "Fed\u2019s minutes show no appetite for a series of interest-rate hikes"
+    "QQQ": {
+      "bull": 5,
+      "bear": 5,
+      "total": 30,
+      "bull_pct": 16.7,
+      "bear_pct": 16.7
     }
-  ],
+  },
   "scorecard": [
     {
       "symbol": "^GSPC",
       "label": "S&P 500",
       "group": "Indices",
-      "price": 7801.77,
-      "chg_5d": 1.96,
-      "chg_1m": 1.67,
-      "chg_3m": 3.42,
-      "vs_50d": 1.58,
-      "vs_200d": 7.74,
-      "pos_52w": 98.8,
-      "rsi": 66.3,
-      "score": 82
+      "price": 7765.36,
+      "chg_5d": 1.29,
+      "chg_1m": 1.69,
+      "chg_3m": 2.51,
+      "vs_50d": 0.99,
+      "vs_200d": 7.17,
+      "pos_52w": 96.4,
+      "rsi": 60.9,
+      "score": 80
     },
     {
       "symbol": "^IXIC",
       "label": "Nasdaq Comp",
       "group": "Indices",
-      "price": 27538.69,
-      "chg_5d": 2.52,
-      "chg_1m": 4.23,
-      "chg_3m": 5.08,
-      "vs_50d": 4.06,
-      "vs_200d": 11.05,
-      "pos_52w": 99.1,
-      "rsi": 73.3,
-      "score": 85
+      "price": 27193.34,
+      "chg_5d": 1.2,
+      "chg_1m": 3.58,
+      "chg_3m": 3.47,
+      "vs_50d": 2.55,
+      "vs_200d": 9.57,
+      "pos_52w": 94.0,
+      "rsi": 62.7,
+      "score": 81
     },
     {
       "symbol": "^DJI",
       "label": "Dow",
       "group": "Indices",
-      "price": 51179.87,
-      "chg_5d": 0.54,
-      "chg_1m": -3.04,
-      "chg_3m": -2.49,
-      "vs_50d": -2.8,
-      "vs_200d": 1.7,
-      "pos_52w": 65.5,
-      "rsi": 41.5,
+      "price": 51231.64,
+      "chg_5d": 0.6,
+      "chg_1m": -2.19,
+      "chg_3m": -2.67,
+      "vs_50d": -2.68,
+      "vs_200d": 1.77,
+      "pos_52w": 66.0,
+      "rsi": 43.5,
       "score": 46
     },
     {
       "symbol": "^RUT",
       "label": "Russell 2000",
       "group": "Indices",
-      "price": 2793.2,
-      "chg_5d": -0.13,
-      "chg_1m": -5.64,
-      "chg_3m": -6.66,
-      "vs_50d": -4.86,
-      "vs_200d": 0.25,
-      "pos_52w": 63.9,
-      "rsi": 33.4,
-      "score": 40
+      "price": 2794.13,
+      "chg_5d": -0.45,
+      "chg_1m": -4.35,
+      "chg_3m": -6.17,
+      "vs_50d": -4.76,
+      "vs_200d": 0.23,
+      "pos_52w": 64.1,
+      "rsi": 35.7,
+      "score": 41
     },
     {
       "symbol": "EURUSD=X",
       "label": "EUR/USD",
       "group": "Forex",
       "price": 1.12,
-      "chg_5d": -1.12,
-      "chg_1m": -3.67,
-      "chg_3m": -1.79,
-      "vs_50d": -2.74,
-      "vs_200d": -3.46,
+      "chg_5d": -0.97,
+      "chg_1m": -3.53,
+      "chg_3m": -1.64,
+      "vs_50d": -2.6,
+      "vs_200d": -3.32,
       "pos_52w": 0.0,
-      "rsi": 12.9,
-      "score": 14
+      "rsi": 13.5,
+      "score": 15
     },
     {
       "symbol": "JPY=X",
       "label": "USD/JPY",
       "group": "Forex",
-      "price": 157.86,
+      "price": 157.85,
       "chg_5d": 0.19,
       "chg_1m": 2.85,
-      "chg_3m": -2.48,
+      "chg_3m": -2.49,
       "vs_50d": 0.1,
       "vs_200d": -0.42,
       "pos_52w": 54.1,
-      "rsi": 64.7,
+      "rsi": 64.6,
       "score": 52
     },
     {
@@ -6727,338 +6729,152 @@
       "label": "GBP/USD",
       "group": "Forex",
       "price": 1.32,
-      "chg_5d": -0.4,
-      "chg_1m": -2.46,
-      "chg_3m": -1.31,
-      "vs_50d": -1.77,
-      "vs_200d": -1.71,
-      "pos_52w": 23.6,
-      "rsi": 36.4,
+      "chg_5d": -0.25,
+      "chg_1m": -2.31,
+      "chg_3m": -1.16,
+      "vs_50d": -1.62,
+      "vs_200d": -1.56,
+      "pos_52w": 26.1,
+      "rsi": 37.9,
       "score": 21
     },
     {
       "symbol": "BTC-USD",
       "label": "Bitcoin",
       "group": "Crypto",
-      "price": 83207.73,
-      "chg_5d": -1.53,
-      "chg_1m": 9.27,
-      "chg_3m": 28.81,
-      "vs_50d": 3.65,
-      "vs_200d": 16.0,
-      "pos_52w": 87.9,
-      "rsi": 43.3,
-      "score": 86
+      "price": 81766.61,
+      "chg_5d": -3.54,
+      "chg_1m": 7.02,
+      "chg_3m": 27.24,
+      "vs_50d": 1.54,
+      "vs_200d": 13.88,
+      "pos_52w": 82.8,
+      "rsi": 37.3,
+      "score": 84
     },
     {
       "symbol": "ETH-USD",
       "label": "Ethereum",
       "group": "Crypto",
-      "price": 2570.5,
-      "chg_5d": -3.66,
-      "chg_1m": 6.39,
-      "chg_3m": 34.83,
-      "vs_50d": 0.94,
-      "vs_200d": 20.88,
-      "pos_52w": 80.2,
-      "rsi": 31.8,
-      "score": 83
+      "price": 2474.76,
+      "chg_5d": -7.91,
+      "chg_1m": 1.13,
+      "chg_3m": 30.11,
+      "vs_50d": -2.99,
+      "vs_200d": 16.26,
+      "pos_52w": 75.1,
+      "rsi": 23.8,
+      "score": 56
     },
     {
       "symbol": "GC=F",
       "label": "Gold",
       "group": "Commodities",
-      "price": 4134.0,
-      "chg_5d": -1.26,
-      "chg_1m": -6.87,
-      "chg_3m": -0.16,
-      "vs_50d": -5.45,
-      "vs_200d": -9.15,
-      "pos_52w": 12.8,
-      "rsi": 22.9,
-      "score": 18
+      "price": 4160.4,
+      "chg_5d": -1.0,
+      "chg_1m": -6.73,
+      "chg_3m": 1.14,
+      "vs_50d": -4.9,
+      "vs_200d": -8.55,
+      "pos_52w": 14.7,
+      "rsi": 22.4,
+      "score": 19
     },
     {
       "symbol": "SI=F",
       "label": "Silver",
       "group": "Commodities",
-      "price": 60.04,
-      "chg_5d": -0.1,
-      "chg_1m": -9.44,
-      "chg_3m": -0.56,
-      "vs_50d": -6.26,
-      "vs_200d": -17.27,
-      "pos_52w": 19.7,
-      "rsi": 29.2,
-      "score": 19
+      "price": 59.59,
+      "chg_5d": -1.87,
+      "chg_1m": -12.29,
+      "chg_3m": -0.37,
+      "vs_50d": -7.01,
+      "vs_200d": -17.84,
+      "pos_52w": 19.0,
+      "rsi": 21.9,
+      "score": 18
     },
     {
       "symbol": "CL=F",
       "label": "Crude oil",
       "group": "Commodities",
-      "price": 89.03,
-      "chg_5d": -1.54,
-      "chg_1m": -4.3,
-      "chg_3m": 23.52,
-      "vs_50d": 0.13,
-      "vs_200d": 7.41,
-      "pos_52w": 58.5,
-      "rsi": 24.4,
-      "score": 81
+      "price": 91.11,
+      "chg_5d": -1.9,
+      "chg_1m": -5.14,
+      "chg_3m": 27.59,
+      "vs_50d": 2.34,
+      "vs_200d": 9.7,
+      "pos_52w": 62.1,
+      "rsi": 33.1,
+      "score": 83
     },
     {
       "symbol": "TLT",
       "label": "20Y Treasuries",
       "group": "Bonds",
-      "price": 77.28,
-      "chg_5d": -1.21,
-      "chg_1m": -6.0,
-      "chg_3m": -8.39,
-      "vs_50d": -5.08,
-      "vs_200d": -9.42,
-      "pos_52w": 1.1,
-      "rsi": 23.7,
-      "score": 11
+      "price": 77.87,
+      "chg_5d": 0.21,
+      "chg_1m": -4.72,
+      "chg_3m": -7.81,
+      "vs_50d": -4.07,
+      "vs_200d": -8.62,
+      "pos_52w": 5.1,
+      "rsi": 23.0,
+      "score": 12
     }
   ],
-  "macro": {
-    "CPIAUCSL": {
-      "label": "CPI index",
-      "value": "334.1",
-      "raw": 334.131,
-      "change": "+3.4% YoY",
-      "chg_raw": 3.353016322755642,
-      "asof": "2026-08-01"
-    },
-    "UNRATE": {
-      "label": "Unemployment rate %",
-      "value": "4.20",
-      "raw": 4.2,
-      "change": "+0.10pp MoM",
-      "chg_raw": 0.10000000000000053,
-      "asof": "2026-09-01"
-    },
-    "PAYEMS": {
-      "label": "Nonfarm payrolls (k)",
-      "value": "159,044.0",
-      "raw": 159044.0,
-      "change": "+29k MoM",
-      "chg_raw": 29.0,
-      "asof": "2026-09-01"
-    },
-    "FEDFUNDS": {
-      "label": "Fed funds rate %",
-      "value": "3.75",
-      "raw": 3.75,
-      "change": "+0.12pp MoM",
-      "chg_raw": 0.1200000000000001,
-      "asof": "2026-09-01"
-    },
-    "MORTGAGE30US": {
-      "label": "30Y mortgage %",
-      "value": "7.28",
-      "raw": 7.28,
-      "change": "+0.25pp MoM",
-      "chg_raw": 0.25,
-      "asof": "2026-10-01"
-    },
-    "DGS10": {
-      "label": "10Y yield %",
-      "value": "5.31",
-      "raw": 5.31,
-      "change": "+0.03pp MoM",
-      "chg_raw": 0.02999999999999936,
-      "asof": "2026-10-05"
-    },
-    "DGS2": {
-      "label": "2Y yield %",
-      "value": "4.84",
-      "raw": 4.84,
-      "change": "+0.01pp MoM",
-      "chg_raw": 0.009999999999999787,
-      "asof": "2026-10-05"
-    },
-    "BAMLH0A0HYM2": {
-      "label": "HY credit spread (pp)",
-      "value": "3.12",
-      "raw": 3.12,
-      "change": "+0.02pp MoM",
-      "chg_raw": 0.020000000000000018,
-      "asof": "2026-10-05"
-    },
-    "GDP": {
-      "label": "Real GDP (bn)",
-      "value": "32,563.0",
-      "raw": 32563.03,
-      "change": "+2.1% QoQ",
-      "chg_raw": 2.0583913997604286,
-      "asof": "2026-04-01"
-    },
-    "HOUST": {
-      "label": "Housing starts (k)",
-      "value": "1,275.0",
-      "raw": 1275.0,
-      "change": "-2.6% MoM",
-      "chg_raw": -2.5974025974025983,
-      "asof": "2026-08-01"
-    },
-    "RSXFS": {
-      "label": "Retail sales ($m)",
-      "value": "646,347.0",
-      "raw": 646347.0,
-      "change": "+1.1% MoM",
-      "chg_raw": 1.1448583871517926,
-      "asof": "2026-08-01"
-    },
-    "_SPREAD_10Y2Y": {
-      "label": "10Y\u20132Y spread (pp)",
-      "value": "+0.47",
-      "raw": 0.46999999999999975,
-      "change": "",
-      "chg_raw": null,
-      "asof": "2026-10-05"
+  "news": [
+    {
+      "pub": "Thu, 08 Oct 2026",
+      "title": "Should I put my nest egg in a 30-year Treasury bond?"
     }
-  },
-  "aaii": {
-    "bull": 34.6,
-    "neutral": 18.9,
-    "bear": 46.5,
-    "spread": -11.9
-  },
-  "stocktwits": {
-    "SPY": {
-      "bull": 7,
-      "bear": 1,
-      "total": 30,
-      "bull_pct": 23.3,
-      "bear_pct": 3.3
-    },
-    "QQQ": {
-      "bull": 5,
-      "bear": 1,
-      "total": 30,
-      "bull_pct": 16.7,
-      "bear_pct": 3.3
-    }
-  },
+  ],
   "walls": {
-    "SPY": {
-      "ticker": "SPY",
-      "expiry": "2026-11-20",
-      "dte": 44,
-      "spot": 777.22,
+    "DIA": {
+      "ticker": "DIA",
+      "expiry": "2026-12-18",
+      "dte": 71,
+      "spot": 511.65,
       "supports": [
         {
-          "strike": 730.0,
-          "oi": 51811
+          "strike": 510.0,
+          "oi": 5157
         },
         {
-          "strike": 740.0,
-          "oi": 51343
+          "strike": 450.0,
+          "oi": 3503
         },
         {
-          "strike": 750.0,
-          "oi": 47824
+          "strike": 420.0,
+          "oi": 3054
         }
       ],
       "resistances": [
         {
-          "strike": 800.0,
-          "oi": 46221
+          "strike": 670.0,
+          "oi": 7366
         },
         {
-          "strike": 810.0,
-          "oi": 31730
+          "strike": 675.0,
+          "oi": 7342
         },
         {
-          "strike": 820.0,
-          "oi": 25945
-        }
-      ]
-    },
-    "QQQ": {
-      "ticker": "QQQ",
-      "expiry": "2026-11-20",
-      "dte": 44,
-      "spot": 757.73,
-      "supports": [
-        {
-          "strike": 700.0,
-          "oi": 47339
-        },
-        {
-          "strike": 690.0,
-          "oi": 46935
-        },
-        {
-          "strike": 720.0,
-          "oi": 40818
-        }
-      ],
-      "resistances": [
-        {
-          "strike": 775.0,
-          "oi": 41711
-        },
-        {
-          "strike": 760.0,
-          "oi": 27279
-        },
-        {
-          "strike": 770.0,
-          "oi": 18661
-        }
-      ]
-    },
-    "IWM": {
-      "ticker": "IWM",
-      "expiry": "2026-11-20",
-      "dte": 44,
-      "spot": 277.7,
-      "supports": [
-        {
-          "strike": 270.0,
-          "oi": 88858
-        },
-        {
-          "strike": 265.0,
-          "oi": 88831
-        },
-        {
-          "strike": 275.0,
-          "oi": 51798
-        }
-      ],
-      "resistances": [
-        {
-          "strike": 290.0,
-          "oi": 33211
-        },
-        {
-          "strike": 295.0,
-          "oi": 27704
-        },
-        {
-          "strike": 300.0,
-          "oi": 22532
+          "strike": 650.0,
+          "oi": 5224
         }
       ]
     }
   },
   "unusual": [],
   "setups": [
-    "\ud83d\udd25 S&P 500 strong uptrend (trend score 82/100)",
-    "\ud83d\udcc8 S&P 500 at 52-week high",
-    "\ud83d\udd25 Nasdaq Comp strong uptrend (trend score 85/100)",
-    "\ud83d\udcc8 Nasdaq Comp at 52-week high",
-    "\ud83e\uddca EUR/USD strong downtrend (trend score 14/100)",
+    "\ud83d\udd25 S&P 500 strong uptrend (trend score 80/100)",
+    "\ud83d\udd25 Nasdaq Comp strong uptrend (trend score 81/100)",
+    "\ud83e\uddca EUR/USD strong downtrend (trend score 15/100)",
     "\ud83d\udcc9 EUR/USD at 52-week low",
-    "\ud83d\udd25 Bitcoin strong uptrend (trend score 86/100)",
-    "\ud83d\udd25 Ethereum strong uptrend (trend score 83/100)",
-    "\ud83e\uddca Gold strong downtrend (trend score 18/100)",
-    "\ud83e\uddca Silver strong downtrend (trend score 19/100)",
-    "\ud83d\udd25 Crude oil strong uptrend (trend score 81/100)",
-    "\ud83e\uddca 20Y Treasuries strong downtrend (trend score 11/100)",
-    "\ud83d\udcc9 20Y Treasuries at 52-week low"
+    "\ud83d\udd25 Bitcoin strong uptrend (trend score 84/100)",
+    "\ud83e\uddca Gold strong downtrend (trend score 19/100)",
+    "\ud83e\uddca Silver strong downtrend (trend score 18/100)",
+    "\ud83d\udd25 Crude oil strong uptrend (trend score 83/100)",
+    "\ud83e\uddca 20Y Treasuries strong downtrend (trend score 12/100)"
   ]
 }
