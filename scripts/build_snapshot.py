@@ -142,7 +142,9 @@ def history(symbol: str, period: str = "2y") -> pd.DataFrame:
         raise RuntimeError(f"no prices for {symbol}")
     frame = frame.rename(columns=str.lower)
     frame.index = frame.index.tz_localize(None)
-    return frame
+    # Yahoo sometimes returns a trailing partial bar with NaN close; it must not
+    # become the "last" bar (NaN -> invalid JSON -> whole dashboard fails to load)
+    return frame.dropna(subset=["close"])
 
 
 def bollinger(close: pd.Series, window: int = 20, nstd: float = 2):

@@ -109,7 +109,7 @@
     const today = (DATA.generated_at || '').slice(0, 10);
     Object.keys(DATA.tickers || {}).forEach(t => {
       const d = DATA.tickers[t];
-      if (!d || d.error || !d.last) return;
+      if (!d || d.error || !d.last || d.last.close == null) return;
       const upper = (d.bb_upper || []).filter(v => v != null).slice(-1)[0];
       const lower = d.last.lower;
       const span = upper && lower != null ? Math.max(upper - lower, 1) : 1;
@@ -135,7 +135,7 @@
     const items = [];
     Object.keys(DATA.tickers || {}).forEach(t => {
       const d = DATA.tickers[t];
-      if (!d || d.error || !d.last) return;
+      if (!d || d.error || !d.last || d.last.close == null) return;
       const c = d.last.chg_pct >= 0 ? 'good' : 'bad';
       items.push(`<div class="tick"><span class="sym">${esc(t)}</span><span class="px">${d.last.close.toFixed(2)}</span><span class="ch ${c}">${d.last.chg_pct>=0?'+':''}${d.last.chg_pct}%</span></div>`);
     });
