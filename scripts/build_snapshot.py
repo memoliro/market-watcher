@@ -30,7 +30,19 @@ OUT = ROOT / "data.json"
 NY = ZoneInfo("America/New_York")
 UA = {"User-Agent": "market-watcher/1.0"}
 
-WHEEL = ["SPY", "QQQ", "IWM"]
+def _load_wheel() -> list:
+    """Alert tickers, editable by memoli in tickers.json (repo root)."""
+    try:
+        cfg = json.loads((ROOT / "tickers.json").read_text())
+        tickers = [str(x).strip().upper() for x in cfg.get("tickers", []) if str(x).strip()]
+        if tickers:
+            return tickers
+    except Exception as exc:  # warn() not defined yet at module load
+        print(f"tickers.json unreadable, using defaults: {exc}", file=sys.stderr)
+    return ["SPY", "QQQ", "IWM"]
+
+
+WHEEL = _load_wheel()
 SCORECARD = [
     ("^GSPC", "S&P 500", "Indices"),
     ("^IXIC", "Nasdaq Comp", "Indices"),
