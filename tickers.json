@@ -1,4 +1,4 @@
 {
-  "tickers": ["SPY", "QQQ", "IWM"],
+  "tickers": ["SPY", "QQQ", "IWM", "DIA"],
   "_note": "Alert + signal-map tickers. Edit this list in GitHub's web UI, then run Actions > Refresh dashboard data (or wait for the weekday 17:45 ET run). The morning email briefing picks it up the next day."
 }
