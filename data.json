@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-07 20:23 ET",
+  "generated_at": "2026-10-07 20:26 ET",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
       "dates": [
+        "2025-10-07",
         "2025-10-08",
         "2025-10-09",
         "2025-10-10",
@@ -253,10 +254,10 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
       "close": [
+        669.12,
         673.11,
         671.16,
         653.02,
@@ -506,10 +507,10 @@
         763.99,
         769.64,
         774.83,
-        779.09,
-        null
+        779.09
       ],
       "bb_upper": [
+        673.13,
         673.75,
         674.4,
         675.06,
@@ -759,10 +760,10 @@
         775.94,
         775.31,
         776.23,
-        778.53,
-        null
+        778.53
       ],
       "bb_lower": [
+        653.05,
         654.52,
         655.22,
         654.13,
@@ -1012,10 +1013,10 @@
         754.07,
         754.34,
         753.89,
-        752.91,
-        null
+        752.91
       ],
       "sma200": [
+        602.06,
         602.49,
         602.92,
         603.23,
@@ -1265,8 +1266,7 @@
         720.03,
         720.47,
         720.95,
-        721.49,
-        null
+        721.49
       ],
       "entries": [
         {
@@ -1341,13 +1341,13 @@
         }
       ],
       "last": {
-        "close": null,
-        "chg_pct": null,
-        "lower": null,
-        "mid": null,
-        "sma200": null,
-        "bullish": false,
-        "dist_to_lower_pct": null,
+        "close": 779.09,
+        "chg_pct": 0.55,
+        "lower": 752.91,
+        "mid": 765.72,
+        "sma200": 721.49,
+        "bullish": true,
+        "dist_to_lower_pct": 3.48,
         "last_signal": "2026-09-14",
         "n_signals_1y": 15
       }
@@ -1355,6 +1355,7 @@
     "QQQ": {
       "ticker": "QQQ",
       "dates": [
+        "2025-10-07",
         "2025-10-08",
         "2025-10-09",
         "2025-10-10",
@@ -1604,10 +1605,10 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
       "close": [
+        604.51,
         611.44,
         610.7,
         589.5,
@@ -1857,10 +1858,10 @@
         742.03,
         749.58,
         756.2,
-        759.66,
-        null
+        759.66
       ],
       "bb_upper": [
+        611.17,
         612.21,
         613.05,
         612.69,
@@ -2110,10 +2111,10 @@
         755.9,
         758.96,
         762.98,
-        767.15,
-        null
+        767.15
       ],
       "bb_lower": [
+        581.67,
         583.71,
         585.53,
         586.17,
@@ -2363,10 +2364,10 @@
         696.47,
         696.6,
         696.3,
-        696.26,
-        null
+        696.26
       ],
       "sma200": [
+        528.37,
         528.84,
         529.32,
         529.68,
@@ -2616,8 +2617,7 @@
         667.91,
         668.6,
         669.33,
-        670.12,
-        null
+        670.12
       ],
       "entries": [
         {
@@ -2684,13 +2684,13 @@
         }
       ],
       "last": {
-        "close": null,
-        "chg_pct": null,
-        "lower": null,
-        "mid": null,
-        "sma200": null,
-        "bullish": false,
-        "dist_to_lower_pct": null,
+        "close": 759.66,
+        "chg_pct": 0.46,
+        "lower": 696.26,
+        "mid": 731.71,
+        "sma200": 670.12,
+        "bullish": true,
+        "dist_to_lower_pct": 9.11,
         "last_signal": "2026-09-14",
         "n_signals_1y": 13
       }
@@ -2698,6 +2698,7 @@
     "IWM": {
       "ticker": "IWM",
       "dates": [
+        "2025-10-07",
         "2025-10-08",
         "2025-10-09",
         "2025-10-10",
@@ -2947,10 +2948,10 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
       "close": [
+        244.16,
         246.72,
         245.13,
         237.79,
@@ -3200,10 +3201,10 @@
         279.02,
         281.52,
         283.38,
-        281.34,
-        null
+        281.34
       ],
       "bb_upper": [
+        247.46,
         247.76,
         248.06,
         248.13,
@@ -3453,10 +3454,10 @@
         296.51,
         295.0,
         292.93,
-        290.85,
-        null
+        290.85
       ],
       "bb_lower": [
+        236.26,
         236.99,
         237.13,
         237.01,
@@ -3706,10 +3707,10 @@
         274.88,
         275.02,
         275.83,
-        276.58,
-        null
+        276.58
       ],
       "sma200": [
+        216.99,
         217.12,
         217.24,
         217.32,
@@ -3959,8 +3960,7 @@
         276.17,
         276.32,
         276.49,
-        276.66,
-        null
+        276.66
       ],
       "entries": [
         {
@@ -4023,13 +4023,13 @@
         }
       ],
       "last": {
-        "close": null,
-        "chg_pct": null,
-        "lower": null,
-        "mid": null,
-        "sma200": null,
-        "bullish": false,
-        "dist_to_lower_pct": null,
+        "close": 281.34,
+        "chg_pct": -0.72,
+        "lower": 276.58,
+        "mid": 283.71,
+        "sma200": 276.66,
+        "bullish": true,
+        "dist_to_lower_pct": 1.72,
         "last_signal": "2026-09-15",
         "n_signals_1y": 13
       }
@@ -4037,6 +4037,7 @@
     "DIA": {
       "ticker": "DIA",
       "dates": [
+        "2025-10-07",
         "2025-10-08",
         "2025-10-09",
         "2025-10-10",
@@ -4286,10 +4287,10 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-05",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
       "close": [
+        465.97,
         466.07,
         463.5,
         454.87,
@@ -4539,10 +4540,10 @@
         508.62,
         511.1,
         512.11,
-        514.56,
-        null
+        514.56
       ],
       "bb_upper": [
+        468.16,
         468.0,
         468.06,
         468.82,
@@ -4792,10 +4793,10 @@
         534.8,
         531.56,
         528.44,
-        526.58,
-        null
+        526.58
       ],
       "bb_lower": [
+        456.7,
         457.87,
         457.97,
         456.76,
@@ -5045,10 +5046,10 @@
         504.31,
         504.97,
         505.89,
-        506.4,
-        null
+        506.4
       ],
       "sma200": [
+        433.52,
         433.73,
         433.93,
         434.06,
@@ -5298,8 +5299,7 @@
         502.58,
         502.71,
         502.86,
-        503.04,
-        null
+        503.04
       ],
       "entries": [
         {
@@ -5354,13 +5354,13 @@
         }
       ],
       "last": {
-        "close": null,
-        "chg_pct": null,
-        "lower": null,
-        "mid": null,
-        "sma200": null,
-        "bullish": false,
-        "dist_to_lower_pct": null,
+        "close": 514.56,
+        "chg_pct": 0.48,
+        "lower": 506.4,
+        "mid": 516.49,
+        "sma200": 503.04,
+        "bullish": true,
+        "dist_to_lower_pct": 1.61,
         "last_signal": "2026-09-15",
         "n_signals_1y": 11
       }
@@ -6712,14 +6712,14 @@
       "symbol": "JPY=X",
       "label": "USD/JPY",
       "group": "Forex",
-      "price": 157.88,
-      "chg_5d": 0.21,
-      "chg_1m": 2.87,
-      "chg_3m": -2.47,
-      "vs_50d": 0.11,
-      "vs_200d": -0.4,
-      "pos_52w": 54.3,
-      "rsi": 64.9,
+      "price": 157.86,
+      "chg_5d": 0.19,
+      "chg_1m": 2.85,
+      "chg_3m": -2.48,
+      "vs_50d": 0.1,
+      "vs_200d": -0.42,
+      "pos_52w": 54.1,
+      "rsi": 64.7,
       "score": 52
     },
     {
@@ -6727,81 +6727,81 @@
       "label": "GBP/USD",
       "group": "Forex",
       "price": 1.32,
-      "chg_5d": -0.41,
-      "chg_1m": -2.47,
-      "chg_3m": -1.32,
-      "vs_50d": -1.78,
-      "vs_200d": -1.72,
-      "pos_52w": 23.5,
+      "chg_5d": -0.4,
+      "chg_1m": -2.46,
+      "chg_3m": -1.31,
+      "vs_50d": -1.77,
+      "vs_200d": -1.71,
+      "pos_52w": 23.6,
       "rsi": 36.4,
-      "score": 20
+      "score": 21
     },
     {
       "symbol": "BTC-USD",
       "label": "Bitcoin",
       "group": "Crypto",
-      "price": 83221.49,
-      "chg_5d": -1.51,
-      "chg_1m": 9.29,
-      "chg_3m": 28.83,
-      "vs_50d": 3.67,
-      "vs_200d": 16.02,
+      "price": 83207.73,
+      "chg_5d": -1.53,
+      "chg_1m": 9.27,
+      "chg_3m": 28.81,
+      "vs_50d": 3.65,
+      "vs_200d": 16.0,
       "pos_52w": 87.9,
-      "rsi": 43.4,
+      "rsi": 43.3,
       "score": 86
     },
     {
       "symbol": "ETH-USD",
       "label": "Ethereum",
       "group": "Crypto",
-      "price": 2571.54,
-      "chg_5d": -3.62,
-      "chg_1m": 6.43,
-      "chg_3m": 34.88,
-      "vs_50d": 0.98,
-      "vs_200d": 20.93,
-      "pos_52w": 80.3,
-      "rsi": 31.9,
+      "price": 2570.5,
+      "chg_5d": -3.66,
+      "chg_1m": 6.39,
+      "chg_3m": 34.83,
+      "vs_50d": 0.94,
+      "vs_200d": 20.88,
+      "pos_52w": 80.2,
+      "rsi": 31.8,
       "score": 83
     },
     {
       "symbol": "GC=F",
       "label": "Gold",
       "group": "Commodities",
-      "price": 4135.4,
-      "chg_5d": -1.23,
-      "chg_1m": -6.84,
-      "chg_3m": -0.13,
-      "vs_50d": -5.41,
-      "vs_200d": -9.12,
-      "pos_52w": 12.9,
-      "rsi": 23.0,
+      "price": 4134.0,
+      "chg_5d": -1.26,
+      "chg_1m": -6.87,
+      "chg_3m": -0.16,
+      "vs_50d": -5.45,
+      "vs_200d": -9.15,
+      "pos_52w": 12.8,
+      "rsi": 22.9,
       "score": 18
     },
     {
       "symbol": "SI=F",
       "label": "Silver",
       "group": "Commodities",
-      "price": 60.1,
-      "chg_5d": 0.0,
-      "chg_1m": -9.35,
-      "chg_3m": -0.46,
-      "vs_50d": -6.16,
-      "vs_200d": -17.18,
-      "pos_52w": 19.8,
-      "rsi": 29.3,
+      "price": 60.04,
+      "chg_5d": -0.1,
+      "chg_1m": -9.44,
+      "chg_3m": -0.56,
+      "vs_50d": -6.26,
+      "vs_200d": -17.27,
+      "pos_52w": 19.7,
+      "rsi": 29.2,
       "score": 19
     },
     {
       "symbol": "CL=F",
       "label": "Crude oil",
       "group": "Commodities",
-      "price": 89.0,
-      "chg_5d": -1.57,
-      "chg_1m": -4.33,
-      "chg_3m": 23.47,
-      "vs_50d": 0.1,
-      "vs_200d": 7.37,
+      "price": 89.03,
+      "chg_5d": -1.54,
+      "chg_1m": -4.3,
+      "chg_3m": 23.52,
+      "vs_50d": 0.13,
+      "vs_200d": 7.41,
       "pos_52w": 58.5,
       "rsi": 24.4,
       "score": 81
@@ -6810,15 +6810,15 @@
       "symbol": "TLT",
       "label": "20Y Treasuries",
       "group": "Bonds",
-      "price": null,
-      "chg_5d": null,
-      "chg_1m": null,
-      "chg_3m": 0,
-      "vs_50d": null,
-      "vs_200d": null,
-      "pos_52w": null,
-      "rsi": 50,
-      "score": 25
+      "price": 77.28,
+      "chg_5d": -1.21,
+      "chg_1m": -6.0,
+      "chg_3m": -8.39,
+      "vs_50d": -5.08,
+      "vs_200d": -9.42,
+      "pos_52w": 1.1,
+      "rsi": 23.7,
+      "score": 11
     }
   ],
   "macro": {
@@ -6927,17 +6927,17 @@
   },
   "stocktwits": {
     "SPY": {
-      "bull": 8,
+      "bull": 7,
       "bear": 1,
       "total": 30,
-      "bull_pct": 26.7,
+      "bull_pct": 23.3,
       "bear_pct": 3.3
     },
     "QQQ": {
-      "bull": 6,
+      "bull": 5,
       "bear": 1,
       "total": 30,
-      "bull_pct": 20.0,
+      "bull_pct": 16.7,
       "bear_pct": 3.3
     }
   },
@@ -7053,11 +7053,12 @@
     "\ud83d\udcc8 Nasdaq Comp at 52-week high",
     "\ud83e\uddca EUR/USD strong downtrend (trend score 14/100)",
     "\ud83d\udcc9 EUR/USD at 52-week low",
-    "\ud83e\uddca GBP/USD strong downtrend (trend score 20/100)",
     "\ud83d\udd25 Bitcoin strong uptrend (trend score 86/100)",
     "\ud83d\udd25 Ethereum strong uptrend (trend score 83/100)",
     "\ud83e\uddca Gold strong downtrend (trend score 18/100)",
     "\ud83e\uddca Silver strong downtrend (trend score 19/100)",
-    "\ud83d\udd25 Crude oil strong uptrend (trend score 81/100)"
+    "\ud83d\udd25 Crude oil strong uptrend (trend score 81/100)",
+    "\ud83e\uddca 20Y Treasuries strong downtrend (trend score 11/100)",
+    "\ud83d\udcc9 20Y Treasuries at 52-week low"
   ]
 }
