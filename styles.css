@@ -125,6 +125,7 @@ html[data-theme="light"] .side-nav button.active{color:#1749a8}
 .bad{color:var(--down)}
 .warn{color:var(--warn)}
 .watchlist{display:flex;flex-wrap:wrap;gap:8px;padding:14px 20px 0}
+#tvStudies{padding-top:8px}
 .wl-chip,.wl-add button,.tabs button,.chip{
   border:1px solid var(--line);background:var(--panel-2);border-radius:999px;padding:6px 10px;color:var(--text-2)
 }

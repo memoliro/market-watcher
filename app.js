@@ -145,11 +145,38 @@
   }
 
   const TV_SYMBOLS = {SPY:'AMEX:SPY', QQQ:'NASDAQ:QQQ', IWM:'AMEX:IWM'};
+  const TV_STUDY_CHOICES = [
+    ['STD;Bollinger_Bands', 'Bollinger'],
+    ['STD;SMA', 'SMA'],
+    ['STD;EMA', 'EMA'],
+    ['STD;RSI', 'RSI'],
+    ['STD;MACD', 'MACD'],
+    ['STD;ATR', 'ATR'],
+    ['Volume@tv-basicstudies', 'Volume']
+  ];
+  const TV_INTERVALS = [['D','1D'],['W','1W'],['M','1M']];
   function tvSym(s){ return TV_SYMBOLS[s] || s; }
   let wlActive = 0, WL = [];
+  let tvStudies = ['STD;Bollinger_Bands'];
+  let tvInterval = 'D';
   try { WL = JSON.parse(localStorage.getItem('mw_watchlist') || '[]'); } catch(e){ WL = []; }
+  try {
+    const savedStudies = JSON.parse(localStorage.getItem('mw_tv_studies') || 'null');
+    if (Array.isArray(savedStudies) && savedStudies.length) tvStudies = savedStudies.filter(id => TV_STUDY_CHOICES.some(c => c[0] === id));
+    if (!tvStudies.length) tvStudies = ['STD;Bollinger_Bands'];
+  } catch(e){}
+  try {
+    const savedInterval = localStorage.getItem('mw_tv_interval');
+    if (TV_INTERVALS.some(x => x[0] === savedInterval)) tvInterval = savedInterval;
+  } catch(e){}
   if (!WL.length) WL = ['SPY','QQQ','IWM'];
   function saveWL(){ try { localStorage.setItem('mw_watchlist', JSON.stringify(WL)); } catch(e){} }
+  function saveStudies(){
+    try {
+      localStorage.setItem('mw_tv_studies', JSON.stringify(tvStudies));
+      localStorage.setItem('mw_tv_interval', tvInterval);
+    } catch(e){}
+  }
   function loadTV(t){
     const c = document.getElementById('tvChart');
     c.innerHTML = '';
@@ -157,16 +184,38 @@
     sc.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
     sc.async = true;
     sc.textContent = JSON.stringify({
-      autosize:true, symbol:tvSym(t), interval:'D',
+      autosize:true, symbol:tvSym(t), interval:tvInterval,
       theme: root.dataset.theme === 'light' ? 'light' : 'dark',
       style:'1', locale:'en', hide_side_toolbar:true,
-      allow_symbol_change:true, studies:['STD;Bollinger_Bands'],
+      allow_symbol_change:true, studies: tvStudies.slice(),
       support_host:'https://www.tradingview.com'
     });
     c.appendChild(sc);
     setTimeout(() => {
       if (!c.querySelector('iframe')) c.innerHTML = '<p class="hint">TradingView chart could not load — check the connection and refresh.</p>';
     }, 9000);
+  }
+  function renderStudies(){
+    const el = document.getElementById('tvStudies');
+    if (!el) return;
+    el.innerHTML = TV_INTERVALS.map(([id,label]) =>
+      `<button class="wl-chip${tvInterval===id?' active':''}" data-iv="${id}">${label}</button>`).join('')
+      + TV_STUDY_CHOICES.map(([id,label]) =>
+      `<button class="wl-chip${tvStudies.includes(id)?' active':''}" data-st="${id}">${label}</button>`).join('');
+    el.querySelectorAll('[data-iv]').forEach(btn => btn.onclick = () => {
+      tvInterval = btn.dataset.iv;
+      saveStudies();
+      renderStudies();
+      if (WL[wlActive]) loadTV(WL[wlActive]);
+    });
+    el.querySelectorAll('[data-st]').forEach(btn => btn.onclick = () => {
+      const id = btn.dataset.st;
+      tvStudies = tvStudies.includes(id) ? tvStudies.filter(x => x !== id) : tvStudies.concat(id);
+      if (!tvStudies.length) tvStudies = ['STD;Bollinger_Bands'];
+      saveStudies();
+      renderStudies();
+      if (WL[wlActive]) loadTV(WL[wlActive]);
+    });
   }
   function renderWL(){
     const el = document.getElementById('watchlist');
@@ -181,7 +230,9 @@
           if (WL[wlActive]) loadTV(WL[wlActive]);
           return;
         }
-        wlActive = +ch.dataset.i;
+        const next = +ch.dataset.i;
+        if (next === wlActive) return;
+        wlActive = next;
         loadTV(WL[wlActive]);
         renderWL();
       };
@@ -370,6 +421,7 @@
     document.getElementById('tabs').innerHTML = tickers.map(t => `<button data-t="${t}">${t}</button>`).join('');
     document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => drawTicker(b.dataset.t));
     renderWL();
+    renderStudies();
     if (WL[0]) loadTV(WL[0]);
     if (tickers[0]) drawTicker(tickers[0]);
     const hash = (location.hash || '#wheel').slice(1);
