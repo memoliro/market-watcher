@@ -514,6 +514,21 @@ def keep(section: str, previous: dict, builder):
         return previous[section]
 
 
+def _json_safe(value):
+    """Recursively replace NaN/Infinity with None so json.dump emits valid JSON.
+
+    Browsers reject raw NaN tokens (Python's json default); one NaN anywhere
+    breaks the whole dashboard because boot() never runs.
+    """
+    if isinstance(value, float) and (math.isnan(value) or math.isinf(value)):
+        return None
+    if isinstance(value, dict):
+        return {k: _json_safe(v) for k, v in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_json_safe(v) for v in value]
+    return value
+
+
 def main() -> None:
     previous = load_previous()
     snapshot = dict(previous)
@@ -590,7 +605,7 @@ def main() -> None:
     snapshot["unusual"] = unusual[:12]
     snapshot["setups"] = setups(snapshot.get("scorecard", []), snapshot.get("stocktwits", {}), snapshot["unusual"])
 
-    OUT.write_text(json.dumps(snapshot, indent=2) + "\n")
+    OUT.write_text(json.dumps(_json_safe(snapshot), indent=2) + "\n")
     print(f"wrote {OUT} at {snapshot['generated_at']}")
     print(f"unusual {len(snapshot['unusual'])} (45-75 DTE only)")
 
