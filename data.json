@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 18:20 ET",
+  "generated_at": "2026-10-08 21:28 ET",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
@@ -6625,18 +6625,18 @@
   },
   "stocktwits": {
     "SPY": {
-      "bull": 8,
-      "bear": 2,
+      "bull": 4,
+      "bear": 9,
       "total": 30,
-      "bull_pct": 26.7,
-      "bear_pct": 6.7
+      "bull_pct": 13.3,
+      "bear_pct": 30.0
     },
     "QQQ": {
       "bull": 5,
-      "bear": 5,
+      "bear": 7,
       "total": 30,
       "bull_pct": 16.7,
-      "bear_pct": 16.7
+      "bear_pct": 23.3
     }
   },
   "scorecard": [
@@ -6701,53 +6701,53 @@
       "label": "EUR/USD",
       "group": "Forex",
       "price": 1.12,
-      "chg_5d": -0.97,
-      "chg_1m": -3.53,
-      "chg_3m": -1.64,
-      "vs_50d": -2.6,
-      "vs_200d": -3.32,
-      "pos_52w": 0.0,
-      "rsi": 13.5,
-      "score": 15
+      "chg_5d": -0.2,
+      "chg_1m": -3.5,
+      "chg_3m": -1.38,
+      "vs_50d": -2.46,
+      "vs_200d": -3.21,
+      "pos_52w": 3.2,
+      "rsi": 17.9,
+      "score": 16
     },
     {
       "symbol": "JPY=X",
       "label": "USD/JPY",
       "group": "Forex",
-      "price": 157.85,
-      "chg_5d": 0.19,
-      "chg_1m": 2.85,
-      "chg_3m": -2.49,
+      "price": 157.82,
+      "chg_5d": -0.07,
+      "chg_1m": 2.77,
+      "chg_3m": -2.84,
       "vs_50d": 0.1,
-      "vs_200d": -0.42,
-      "pos_52w": 54.1,
-      "rsi": 64.6,
-      "score": 52
+      "vs_200d": -0.45,
+      "pos_52w": 53.8,
+      "rsi": 57.7,
+      "score": 50
     },
     {
       "symbol": "GBPUSD=X",
       "label": "GBP/USD",
       "group": "Forex",
       "price": 1.32,
-      "chg_5d": -0.25,
-      "chg_1m": -2.31,
-      "chg_3m": -1.16,
-      "vs_50d": -1.62,
-      "vs_200d": -1.56,
-      "pos_52w": 26.1,
-      "rsi": 37.9,
+      "chg_5d": 0.33,
+      "chg_1m": -2.28,
+      "chg_3m": -0.79,
+      "vs_50d": -1.5,
+      "vs_200d": -1.47,
+      "pos_52w": 27.6,
+      "rsi": 36.4,
       "score": 21
     },
     {
       "symbol": "BTC-USD",
       "label": "Bitcoin",
       "group": "Crypto",
-      "price": 81766.61,
-      "chg_5d": -3.54,
-      "chg_1m": 7.02,
-      "chg_3m": 27.24,
-      "vs_50d": 1.54,
-      "vs_200d": 13.88,
+      "price": 81778.32,
+      "chg_5d": -3.52,
+      "chg_1m": 7.03,
+      "chg_3m": 27.26,
+      "vs_50d": 1.55,
+      "vs_200d": 13.9,
       "pos_52w": 82.8,
       "rsi": 37.3,
       "score": 84
@@ -6756,56 +6756,56 @@
       "symbol": "ETH-USD",
       "label": "Ethereum",
       "group": "Crypto",
-      "price": 2474.76,
-      "chg_5d": -7.91,
-      "chg_1m": 1.13,
-      "chg_3m": 30.11,
-      "vs_50d": -2.99,
-      "vs_200d": 16.26,
-      "pos_52w": 75.1,
-      "rsi": 23.8,
+      "price": 2478.01,
+      "chg_5d": -7.79,
+      "chg_1m": 1.26,
+      "chg_3m": 30.28,
+      "vs_50d": -2.87,
+      "vs_200d": 16.41,
+      "pos_52w": 75.4,
+      "rsi": 24.0,
       "score": 56
     },
     {
       "symbol": "GC=F",
       "label": "Gold",
       "group": "Commodities",
-      "price": 4160.4,
-      "chg_5d": -1.0,
-      "chg_1m": -6.73,
-      "chg_3m": 1.14,
-      "vs_50d": -4.9,
-      "vs_200d": -8.55,
-      "pos_52w": 14.7,
-      "rsi": 22.4,
-      "score": 19
+      "price": 4181.7,
+      "chg_5d": -0.49,
+      "chg_1m": -6.25,
+      "chg_3m": 1.65,
+      "vs_50d": -4.42,
+      "vs_200d": -8.08,
+      "pos_52w": 16.3,
+      "rsi": 25.7,
+      "score": 20
     },
     {
       "symbol": "SI=F",
       "label": "Silver",
       "group": "Commodities",
-      "price": 59.59,
-      "chg_5d": -1.87,
-      "chg_1m": -12.29,
-      "chg_3m": -0.37,
-      "vs_50d": -7.01,
-      "vs_200d": -17.84,
-      "pos_52w": 19.0,
-      "rsi": 21.9,
-      "score": 18
+      "price": 60.18,
+      "chg_5d": -0.9,
+      "chg_1m": -11.42,
+      "chg_3m": 0.62,
+      "vs_50d": -6.1,
+      "vs_200d": -17.03,
+      "pos_52w": 19.9,
+      "rsi": 24.2,
+      "score": 19
     },
     {
       "symbol": "CL=F",
       "label": "Crude oil",
       "group": "Commodities",
-      "price": 91.11,
-      "chg_5d": -1.9,
-      "chg_1m": -5.14,
-      "chg_3m": 27.59,
-      "vs_50d": 2.34,
-      "vs_200d": 9.7,
-      "pos_52w": 62.1,
-      "rsi": 33.1,
+      "price": 90.89,
+      "chg_5d": -2.13,
+      "chg_1m": -5.37,
+      "chg_3m": 27.28,
+      "vs_50d": 2.1,
+      "vs_200d": 9.43,
+      "pos_52w": 61.8,
+      "rsi": 32.5,
       "score": 83
     },
     {
@@ -6823,12 +6823,7 @@
       "score": 12
     }
   ],
-  "news": [
-    {
-      "pub": "Thu, 08 Oct 2026",
-      "title": "Should I put my nest egg in a 30-year Treasury bond?"
-    }
-  ],
+  "news": [],
   "walls": {
     "DIA": {
       "ticker": "DIA",
@@ -6869,12 +6864,13 @@
   "setups": [
     "\ud83d\udd25 S&P 500 strong uptrend (trend score 80/100)",
     "\ud83d\udd25 Nasdaq Comp strong uptrend (trend score 81/100)",
-    "\ud83e\uddca EUR/USD strong downtrend (trend score 15/100)",
+    "\ud83e\uddca EUR/USD strong downtrend (trend score 16/100)",
     "\ud83d\udcc9 EUR/USD at 52-week low",
     "\ud83d\udd25 Bitcoin strong uptrend (trend score 84/100)",
-    "\ud83e\uddca Gold strong downtrend (trend score 19/100)",
-    "\ud83e\uddca Silver strong downtrend (trend score 18/100)",
+    "\ud83e\uddca Gold strong downtrend (trend score 20/100)",
+    "\ud83e\uddca Silver strong downtrend (trend score 19/100)",
     "\ud83d\udd25 Crude oil strong uptrend (trend score 83/100)",
-    "\ud83e\uddca 20Y Treasuries strong downtrend (trend score 12/100)"
+    "\ud83e\uddca 20Y Treasuries strong downtrend (trend score 12/100)",
+    "\ud83d\udce3 StockTwits $SPY heavily bearish (30.0% of messages)"
   ]
 }
