@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16 19:54 ET",
+  "generated_at": "2026-10-19 20:41 ET",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
@@ -5364,7 +5364,6 @@
   },
   "vix": {
     "dates": [
-      "2026-04-16",
       "2026-04-17",
       "2026-04-20",
       "2026-04-21",
@@ -5493,10 +5492,10 @@
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-19"
     ],
     "values": [
-      17.94,
       17.48,
       18.87,
       19.5,
@@ -5625,13 +5624,13 @@
       15.27,
       16.87,
       16.46,
-      19.99
+      19.99,
+      18.44
     ]
   },
-  "vix_last": 19.99,
+  "vix_last": 18.44,
   "tnx": {
     "dates": [
-      "2026-04-14",
       "2026-04-15",
       "2026-04-16",
       "2026-04-17",
@@ -5760,10 +5759,10 @@
       "2026-10-13",
       "2026-10-14",
       "2026-10-15",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-10-19"
     ],
     "values": [
-      4.26,
       4.28,
       4.31,
       4.25,
@@ -5892,24 +5891,19 @@
       5.22,
       5.19,
       5.09,
-      5.1
+      5.1,
+      5.14
     ]
   },
-  "tnx_last": 5.1,
+  "tnx_last": 5.14,
   "putcall": {
-    "as_of": "2026-10-15",
-    "total": 0.8,
-    "equity": 0.62,
-    "index": 0.99
+    "as_of": "2026-10-16",
+    "total": 0.92,
+    "equity": 0.65,
+    "index": 1.05
   },
-  "putcall_reading": "equity put/call 0.62 \u2014 complacent tape, premiums thin",
+  "putcall_reading": "equity put/call 0.65 \u2014 complacent tape, premiums thin",
   "putcall_hist": [
-    {
-      "d": "2026-10-06",
-      "total": 0.82,
-      "equity": 0.57,
-      "index": 0.88
-    },
     {
       "d": "2026-10-07",
       "total": 0.87,
@@ -5951,6 +5945,12 @@
       "total": 0.8,
       "equity": 0.62,
       "index": 0.99
+    },
+    {
+      "d": "2026-10-16",
+      "total": 0.92,
+      "equity": 0.65,
+      "index": 1.05
     }
   ],
   "cot": {
@@ -6610,17 +6610,17 @@
   "stocktwits": {
     "SPY": {
       "bull": 3,
-      "bear": 12,
+      "bear": 4,
       "total": 30,
       "bull_pct": 10.0,
-      "bear_pct": 40.0
+      "bear_pct": 13.3
     },
     "QQQ": {
       "bull": 2,
-      "bear": 11,
+      "bear": 3,
       "total": 30,
       "bull_pct": 6.7,
-      "bear_pct": 36.7
+      "bear_pct": 10.0
     }
   },
   "scorecard": [
@@ -6628,169 +6628,169 @@
       "symbol": "^GSPC",
       "label": "S&P 500",
       "group": "Indices",
-      "price": 7659.44,
-      "chg_5d": -1.95,
-      "chg_1m": 0.28,
-      "chg_3m": 2.9,
-      "vs_50d": -0.61,
-      "vs_200d": 5.34,
-      "pos_52w": 89.2,
-      "rsi": 47.6,
+      "price": 7690.73,
+      "chg_5d": -1.49,
+      "chg_1m": 0.53,
+      "chg_3m": 2.42,
+      "vs_50d": -0.19,
+      "vs_200d": 5.7,
+      "pos_52w": 91.3,
+      "rsi": 51.9,
       "score": 52
     },
     {
       "symbol": "^IXIC",
       "label": "Nasdaq Comp",
       "group": "Indices",
-      "price": 26140.03,
-      "chg_5d": -4.48,
-      "chg_1m": -1.05,
-      "chg_3m": 2.48,
-      "vs_50d": -1.84,
-      "vs_200d": 4.9,
-      "pos_52w": 78.5,
-      "rsi": 37.3,
-      "score": 49
+      "price": 26430.89,
+      "chg_5d": -2.99,
+      "chg_1m": -0.35,
+      "chg_3m": 2.3,
+      "vs_50d": -0.73,
+      "vs_200d": 6.0,
+      "pos_52w": 82.8,
+      "rsi": 43.8,
+      "score": 50
     },
     {
       "symbol": "^DJI",
       "label": "Dow",
       "group": "Indices",
-      "price": 52002.41,
-      "chg_5d": 0.67,
-      "chg_1m": 0.43,
-      "chg_3m": 0.31,
-      "vs_50d": -0.87,
-      "vs_200d": 3.1,
-      "pos_52w": 74.4,
-      "rsi": 58.2,
+      "price": 51966.03,
+      "chg_5d": 0.22,
+      "chg_1m": 0.55,
+      "chg_3m": -0.5,
+      "vs_50d": -0.86,
+      "vs_200d": 2.99,
+      "pos_52w": 74.0,
+      "rsi": 60.0,
       "score": 52
     },
     {
       "symbol": "^RUT",
       "label": "Russell 2000",
       "group": "Indices",
-      "price": 2721.37,
-      "chg_5d": -3.05,
-      "chg_1m": -5.33,
-      "chg_3m": -7.51,
-      "vs_50d": -6.4,
-      "vs_200d": -2.62,
-      "pos_52w": 54.5,
-      "rsi": 33.9,
-      "score": 15
+      "price": 2728.3,
+      "chg_5d": -2.37,
+      "chg_1m": -4.62,
+      "chg_3m": -8.67,
+      "vs_50d": -5.97,
+      "vs_200d": -2.42,
+      "pos_52w": 55.4,
+      "rsi": 36.6,
+      "score": 14
     },
     {
       "symbol": "EURUSD=X",
       "label": "EUR/USD",
       "group": "Forex",
       "price": 1.12,
-      "chg_5d": 0.27,
-      "chg_1m": -1.97,
-      "chg_3m": -1.53,
-      "vs_50d": -2.04,
-      "vs_200d": -2.96,
-      "pos_52w": 9.7,
-      "rsi": 34.2,
+      "chg_5d": 0.55,
+      "chg_1m": -2.24,
+      "chg_3m": -1.66,
+      "vs_50d": -2.11,
+      "vs_200d": -3.11,
+      "pos_52w": 7.2,
+      "rsi": 34.1,
       "score": 20
     },
     {
       "symbol": "JPY=X",
       "label": "USD/JPY",
       "group": "Forex",
-      "price": 157.99,
-      "chg_5d": -0.05,
-      "chg_1m": 1.26,
-      "chg_3m": -2.77,
-      "vs_50d": 0.18,
-      "vs_200d": -0.36,
-      "pos_52w": 51.6,
-      "rsi": 59.7,
-      "score": 50
+      "price": 158.55,
+      "chg_5d": 0.02,
+      "chg_1m": 0.96,
+      "chg_3m": -2.78,
+      "vs_50d": 0.54,
+      "vs_200d": -0.01,
+      "pos_52w": 53.5,
+      "rsi": 65.1,
+      "score": 51
     },
     {
       "symbol": "GBPUSD=X",
       "label": "GBP/USD",
       "group": "Forex",
       "price": 1.33,
-      "chg_5d": 0.67,
-      "chg_1m": -0.21,
-      "chg_3m": -0.37,
-      "vs_50d": -0.67,
-      "vs_200d": -0.77,
-      "pos_52w": 38.4,
-      "rsi": 57.3,
+      "chg_5d": 0.82,
+      "chg_1m": -0.53,
+      "chg_3m": -0.43,
+      "vs_50d": -0.73,
+      "vs_200d": -0.86,
+      "pos_52w": 36.9,
+      "rsi": 58.2,
       "score": 27
     },
     {
       "symbol": "BTC-USD",
       "label": "Bitcoin",
       "group": "Crypto",
-      "price": 81499.56,
-      "chg_5d": -2.61,
-      "chg_1m": -3.02,
-      "chg_3m": 29.41,
-      "vs_50d": 0.3,
-      "vs_200d": 12.63,
-      "pos_52w": 81.8,
-      "rsi": 39.9,
-      "score": 85
+      "price": 81589.53,
+      "chg_5d": 0.03,
+      "chg_1m": -2.29,
+      "chg_3m": 26.48,
+      "vs_50d": 0.14,
+      "vs_200d": 12.43,
+      "pos_52w": 82.1,
+      "rsi": 34.2,
+      "score": 84
     },
     {
       "symbol": "ETH-USD",
       "label": "Ethereum",
       "group": "Crypto",
-      "price": 2419.77,
-      "chg_5d": -4.53,
-      "chg_1m": -10.06,
-      "chg_3m": 28.67,
-      "vs_50d": -5.2,
-      "vs_200d": 12.82,
-      "pos_52w": 70.6,
-      "rsi": 30.6,
-      "score": 58
+      "price": 2396.92,
+      "chg_5d": -0.88,
+      "chg_1m": -10.85,
+      "chg_3m": 25.35,
+      "vs_50d": -6.01,
+      "vs_200d": 11.52,
+      "pos_52w": 68.7,
+      "rsi": 24.1,
+      "score": 56
     },
     {
       "symbol": "GC=F",
       "label": "Gold",
       "group": "Commodities",
-      "price": 4186.7,
-      "chg_5d": -0.7,
-      "chg_1m": -4.84,
-      "chg_3m": 4.25,
-      "vs_50d": -4.29,
-      "vs_200d": -7.8,
-      "pos_52w": 16.7,
-      "rsi": 52.2,
-      "score": 29
+      "price": 4150.1,
+      "chg_5d": -0.97,
+      "chg_1m": -6.21,
+      "chg_3m": 1.81,
+      "vs_50d": -5.02,
+      "vs_200d": -8.58,
+      "pos_52w": 14.0,
+      "rsi": 46.6,
+      "score": 26
     },
     {
       "symbol": "SI=F",
       "label": "Silver",
       "group": "Commodities",
-      "price": 57.13,
-      "chg_5d": -5.83,
-      "chg_1m": -12.73,
-      "chg_3m": 0.59,
-      "vs_50d": -10.59,
-      "vs_200d": -20.77,
-      "pos_52w": 15.4,
-      "rsi": 35.5,
-      "score": 22
+      "price": 56.98,
+      "chg_5d": -5.26,
+      "chg_1m": -14.39,
+      "chg_3m": -3.15,
+      "vs_50d": -10.65,
+      "vs_200d": -20.91,
+      "pos_52w": 15.2,
+      "rsi": 36.3,
+      "score": 19
     },
     {
       "symbol": "CL=F",
       "label": "Crude oil",
       "group": "Commodities",
-      "price": 99.04,
-      "chg_5d": 7.83,
-      "chg_1m": -2.82,
-      "chg_3m": 19.0,
-      "vs_50d": 8.91,
-      "vs_200d": 17.65,
-      "pos_52w": 75.9,
-      "rsi": 64.6,
-      "score": 91
+      "price": 98.57,
+      "chg_5d": 5.15,
+      "chg_1m": -1.72,
+      "chg_3m": 16.09,
+      "vs_50d": 7.86,
+      "vs_200d": 16.79,
+      "pos_52w": 75.1,
+      "rsi": 69.1,
+      "score": 92
     },
     {
       "symbol": "TLT",
@@ -6807,16 +6807,7 @@
       "score": 25
     }
   ],
-  "news": [
-    {
-      "pub": "Fri, 16 Oct 2026",
-      "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention."
-    },
-    {
-      "pub": "Fri, 16 Oct 2026",
-      "title": "Your Social Security check will rise an average of $75 a month \u2014 will it be able to keep up with inflation?"
-    }
-  ],
+  "news": [],
   "walls": {
     "DIA": {
       "ticker": "DIA",
@@ -6855,11 +6846,10 @@
   },
   "unusual": [],
   "setups": [
-    "\ud83e\uddca Russell 2000 strong downtrend (trend score 15/100)",
+    "\ud83e\uddca Russell 2000 strong downtrend (trend score 14/100)",
     "\ud83e\uddca EUR/USD strong downtrend (trend score 20/100)",
-    "\ud83d\udd25 Bitcoin strong uptrend (trend score 85/100)",
-    "\ud83d\udd25 Crude oil strong uptrend (trend score 91/100)",
-    "\ud83d\udce3 StockTwits $SPY heavily bearish (40.0% of messages)",
-    "\ud83d\udce3 StockTwits $QQQ heavily bearish (36.7% of messages)"
+    "\ud83d\udd25 Bitcoin strong uptrend (trend score 84/100)",
+    "\ud83e\uddca Silver strong downtrend (trend score 19/100)",
+    "\ud83d\udd25 Crude oil strong uptrend (trend score 92/100)"
   ]
 }
